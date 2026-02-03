@@ -1,0 +1,278 @@
+A<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Freelance Web Developer</title>
+  <meta name="description" content="Fast, clean websites for small businesses. Design + development + ongoing support." />
+  <meta name="theme-color" content="#0B2A4A" />
+
+  <!-- Open Graph (optional) -->
+  <meta property="og:title" content="Alvin — Freelance Web Developer" />
+  <meta property="og:description" content="Fast, clean websites for small businesses." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true">
+          <!-- Simple “drawable” logo: a circle + <> -->
+          <svg viewBox="0 0 64 64" width="28" height="28" role="img" aria-hidden="true">
+            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="4"/>
+            <path d="M28 22 L18 32 L28 42" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M36 22 L46 32 L36 42" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand__text">
+          <strong>Your Name</strong>
+          <span class="brand__sub">Freelance Web Developer</span>
+        </span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav__burger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#pricing">Pricing</a>
+        <a class="btn btn--small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1>Websites that look sharp and load fast.</h1>
+          <p class="lead">
+            I design and build simple, modern websites for small businesses and personal brands.
+            Clean code, mobile-first, and easy to update.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contact">Get a free quote</a>
+            <a class="btn btn--ghost" href="#work">See examples</a>
+          </div>
+
+          <div class="hero__meta">
+            <span class="pill">⚡ Performance-first</span>
+            <span class="pill">📱 Mobile-ready</span>
+            <span class="pill">🔒 HTTPS by default</span>
+          </div>
+        </div>
+
+        <div class="hero__card" role="presentation" aria-hidden="true">
+          <div class="card">
+            <div class="card__top">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+            </div>
+            <div class="card__body">
+              <div class="mock-row w-80"></div>
+              <div class="mock-row w-60"></div>
+              <div class="mock-row w-90"></div>
+              <div class="mock-row w-50"></div>
+              <div class="mock-gap"></div>
+              <div class="mock-btn"></div>
+            </div>
+          </div>
+          <p class="hero__note">One-page site (like this) or multi-page — your choice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="section__sub">Pick what you need. Keep it simple.</p>
+
+        <div class="grid3">
+          <article class="feature">
+            <h3>Landing Pages</h3>
+            <p>Perfect for a single product/service. Fast launch, clear call-to-action.</p>
+            <ul>
+              <li>1 page</li>
+              <li>Responsive design</li>
+              <li>Basic SEO</li>
+            </ul>
+          </article>
+
+          <article class="feature">
+            <h3>Business Websites</h3>
+            <p>Multi-page websites for local businesses, portfolios, and organizations.</p>
+            <ul>
+              <li>3–6 pages</li>
+              <li>Contact + map</li>
+              <li>Analytics setup</li>
+            </ul>
+          </article>
+
+          <article class="feature">
+            <h3>Care & Updates</h3>
+            <p>Ongoing updates, changes, and fixes so your site stays fresh and secure.</p>
+            <ul>
+              <li>Content edits</li>
+              <li>Bug fixes</li>
+              <li>Performance checks</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section section--alt">
+      <div class="container">
+        <h2>Work</h2>
+        <p class="section__sub">Replace these placeholders with your real projects.</p>
+
+        <div class="grid3">
+          <a class="project" href="#" aria-label="Project 1">
+            <div class="project__thumb" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Project One</h3>
+              <p>Short 1–2 line description. What problem did you solve?</p>
+              <span class="tag">HTML/CSS</span><span class="tag">Performance</span>
+            </div>
+          </a>
+
+          <a class="project" href="#" aria-label="Project 2">
+            <div class="project__thumb" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Project Two</h3>
+              <p>Short 1–2 line description. What was the result?</p>
+              <span class="tag">React</span><span class="tag">UI</span>
+            </div>
+          </a>
+
+          <a class="project" href="#" aria-label="Project 3">
+            <div class="project__thumb" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Project Three</h3>
+              <p>Short 1–2 line description. Who was it for?</p>
+              <span class="tag">WordPress</span><span class="tag">SEO</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Simple pricing</h2>
+        <p class="section__sub">Edit these numbers to match your real rates.</p>
+
+        <div class="grid3">
+          <article class="price">
+            <h3>Starter</h3>
+            <p class="price__num">$299+</p>
+            <p class="muted">One-page landing page</p>
+            <ul>
+              <li>Custom layout</li>
+              <li>Mobile-first</li>
+              <li>Launch in 3–7 days</li>
+            </ul>
+          </article>
+
+          <article class="price price--featured">
+            <h3>Business</h3>
+            <p class="price__num">$799+</p>
+            <p class="muted">Multi-page website</p>
+            <ul>
+              <li>Up to 5 pages</li>
+              <li>Contact section</li>
+              <li>SEO basics</li>
+            </ul>
+          </article>
+
+          <article class="price">
+            <h3>Care</h3>
+            <p class="price__num">$49/mo</p>
+            <p class="muted">Updates + support</p>
+            <ul>
+              <li>Small edits</li>
+              <li>Security checks</li>
+              <li>Monthly report</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section__sub">Tell me what you need and your timeline.</p>
+
+        <div class="contact">
+          <div class="contact__left">
+            <div class="contact__box">
+              <h3>Email</h3>
+              <p class="mono" id="emailText">youremail@example.com</p>
+              <div class="contact__actions">
+                <a class="btn btn--small" id="mailtoLink" href="mailto:alvintian2003@yahoo.ca?subject=Website%20Project%20Inquiry">
+                  Email me
+                </a>
+                <button class="btn btn--small btn--ghost" id="copyBtn" type="button">Copy</button>
+              </div>
+              <p class="muted small" id="copyStatus" aria-live="polite"></p>
+            </div>
+
+            <div class="contact__box">
+              <h3>Social</h3>
+              <p class="muted small">Replace these with your links:</p>
+              <div class="social">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Portfolio">Portfolio</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__right">
+            <form class="form" id="contactForm">
+              <label>
+                Name
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                What do you need?
+                <textarea name="message" rows="5" required placeholder="Example: 5-page website for my business, with a contact page and basic SEO."></textarea>
+              </label>
+
+              <!-- This form uses mailto so it stays 100% free (no backend).
+                   If you later want a real form, swap this out for Formspree / Netlify Forms. -->
+              <button class="btn" type="submit">Send</button>
+              <p class="muted small">Tip: This opens your email app with a pre-filled message.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
