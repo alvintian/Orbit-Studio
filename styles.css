@@ -175,21 +175,7 @@ a:hover{ text-decoration:underline; }
   box-shadow: var(--shadow);
   overflow:hidden;
 }
-.card__body--img{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding: 16px;            /* adjust if you want more/less breathing room */
-}
 
-.card__img{
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  display:block;
-}
 .card__top{
   display:flex;
   gap:8px;
